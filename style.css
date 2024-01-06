@@ -7,12 +7,12 @@
 }
 .header{
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: bottom; */
-    padding: 215px 230px 0 0;
+    background-position: center bottom;
+    padding: 230px 250px 0 0;
 }
 .hero{
     width: 530px;
@@ -39,4 +39,139 @@
     font-weight: 600;
     border: none;
     padding: 20px 25px;
+}
+.main{
+    margin: 140px 230px;
+}
+.my-failure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failure-content{
+    width: 420px;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0 16px;
+}
+.tick-text{
+    margin-bottom: 10px;
+}
+.tick-text > i{
+    color: #16D887;
+}
+.my-plans{
+    text-align: center;
+    margin: 130px 0;
+}
+.plans-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.plan-title{
+    color:#151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px 0 16px;
+}
+.plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.call-now{
+    height: 300px;
+    background-image: url('images/gradient2.png'),url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 0px 65px;
+}
+.call-now-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 460px;
+}
+.call-now-btn{
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 35px;
+    margin-top: 25px;
+}
+
+.footer{
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.future{
+    width: 485px;
+}
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-description{
+    margin: 16px 0 24px;
+}
+.future p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.future-email{
+    margin-bottom: 16px;
+}
+.social-links{
+    margin-top: 32px;
+}
+.social-links a{
+    margin-right: 15px;
+}
+
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.subscribe input{
+    padding: 20px;
+    padding-right: 160px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    display: block;
+    margin: 32px 0 16px;
+}
+.subscribe-btn{
+    border-radius: 8px;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+    border: none;
 }
