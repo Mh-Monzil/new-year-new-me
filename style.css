@@ -48,7 +48,33 @@
     justify-content: space-around;
     align-items: center;
 }
-
+.failure-img{
+    position: relative;
+}
+.failure-img::after{
+    content: '';
+    display: inline-block;
+    height: 530px;
+    width: 530px;
+    background-color: #16D887;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: absolute;
+    top: 50%;
+    left: 50.5%;
+    transform: translate(-50%, -32%);
+}
+/* .bg-circle{
+    width: 530px;
+    height: 530px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: absolute;
+    left: 28%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+} */
 .failure-content{
     width: 420px;
 }
